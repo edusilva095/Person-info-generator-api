@@ -1,16 +1,18 @@
 Uma aplicação que gera uma pessoa com diversos dados.
 
-Tipos de dados gerados:
--Nome completo<br>
--CPF<br>
--RG<br>
--Data de nascimento<br>
--Sexo<br>
--Signo<br>
--Altura<br>
--Peso<br>
--Cidade<br>
--Estado<br>
--Tipo Sanguineo<br>
--Nome do pai<br>
--Nome da mãe<br>
+Tipos de dados gerados:<br>
+<ul>
+    <li>Nome completo</li>
+    <li>CPF</li>
+    <li>RG</li>
+    <li>Data de nascimento</li>
+    <li>Sexo</li>
+    <li>Signo</li>
+    <li>Altura</li>
+    <li>Peso</li>
+    <li>Cidade</li>
+    <li>Estado</li>
+    <li>Tipo Sanguineo</li>
+    <li>Nome do pai</li>
+    <li>Nome da mãe</li>
+</ul>
