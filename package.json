@@ -1,0 +1,23 @@
+{
+  "name": "gerador-de-pessoas",
+  "version": "1.0.0",
+  "description": "uma aplicação que gera uma pessoa com diversos dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edusilva095/gerador_de_pessoas.git"
+  },
+  "author": "Eduardo Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edusilva095/gerador_de_pessoas/issues"
+  },
+  "homepage": "https://github.com/edusilva095/gerador_de_pessoas#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  }
+}
