@@ -1,6 +1,6 @@
 Uma aplicação que gera uma pessoa com diversos dados.
 
-Tipos de dados gerados:<br>
+Tipos de dados gerados:
 <ul>
     <li>Nome completo</li>
     <li>CPF</li>
