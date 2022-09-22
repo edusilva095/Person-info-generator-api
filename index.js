@@ -1,15 +1,19 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 4000;
+const bodyParser = require('body-parser');
 const mongoose = require("mongoose");
 
 const Nome = require("./src/model/model_nome");
 const Sobrenome = require("./src/model/model_sobrenome");
+const Routes = require("./src/routes/routes");
 
-app.get("/", (req, res) => {
-    res.send("Hello World!")
-})
+mongoose.connect('mongodb://localhost/gerador-de-pessoas');
+
+app.use(Routes);
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 app.listen(port, () => {
-    console.log("O projeto está ok!")
+    console.log("server is running!!");
 })

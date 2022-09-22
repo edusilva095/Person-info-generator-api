@@ -5,6 +5,10 @@ const schemaNome = Schema({
     nome: {
         type: String,
         require: true
+    },
+    genero: {
+        type: String,
+        require: true
     }
 })
 
