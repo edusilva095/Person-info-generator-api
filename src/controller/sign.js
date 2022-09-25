@@ -7,7 +7,7 @@ exports.sign = (bornDate) => {
         return "Áries"
     } else if (bornDateToDate >= new Date(`04/21/${year}`) && bornDateToDate <= new Date(`05/20/${year}`)) {
         return "Touro"
-    } else if (bornDateToDate >= new Date(`05-21-${year}`) && bornDateToDate <= new Date(`06-20-${year}`)) {
+    } else if (bornDateToDate >= new Date(`05-21-${year}`) && bornDateToDate <= new Date(`06/20/${year}`)) {
         return "Gêmeos"
     } else if (bornDateToDate >= new Date(`06/21/${year}`) && bornDateToDate <= new Date(`07/22/${year}`)) {
         return "Câncer"

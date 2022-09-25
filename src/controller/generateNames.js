@@ -39,6 +39,5 @@ exports.getRandomSobrenome = async (countSobrenome) => {
         middleSobrenomeMother: await Sobrenome.findOne().skip(randomNumberMiddleSobrenomeMother),
         lastSobrenomeMother: await Sobrenome.findOne().skip(randomNumberLastSobrenomeMother)
     }
-
     return randomSobrenome;
 }
