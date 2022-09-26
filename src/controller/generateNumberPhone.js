@@ -1,24 +1,16 @@
 const axios = require("axios");
 
-exports.phone = async (selectCity) => {
-    const ddd = await para()
-    console.log(ddd[1].data)
-    return dddPara();
+exports.generateNumberLandline = (areaCode) => {
+    const firstPart = Math.floor(Math.random() * 9999 + 1);
+    const secondPart = Math.floor(Math.random() * 9999 + 1);
+    return `(${areaCode})${firstPart}-${secondPart}`
 }
 
-const acre = async () => {
-    const ddd68 = await axios.get("https://brasilapi.com.br/api/ddd/v1/68"); 
-    return ddd68;
-}
+exports.generateNumberCellPhone = (areaCode) => {
+    const operatorNumber = [67, 71, 72, 95, 96, 97, 98, 99, 68, 73, 74, 75, 76, 91, 92, 93, 94, 69, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89];
 
-const alagoas = async () => {
-    const ddd82 = await axios.get("https://brasilapi.com.br/api/ddd/v1/82");
-    return ddd82;
-}
-
-const para = async () => {
-    const ddd91 = await axios.get("https://brasilapi.com.br/api/ddd/v1/91");
-    const ddd93 = await axios.get("https://brasilapi.com.br/api/ddd/v1/93");
-    const ddd94 = await axios.get("https://brasilapi.com.br/api/ddd/v1/94");
-    return [ddd91, ddd93, ddd94];
+    const randomOperatorNumber = Math.floor(Math.random() * operatorNumber.length);
+    const firstPart = Math.floor(Math.random() * 9999 + 1000);
+    const secondPart = Math.floor(Math.random() * 9999 + 1000);
+    return `(${areaCode})9${operatorNumber[randomOperatorNumber]}${firstPart}-${secondPart}`
 }
