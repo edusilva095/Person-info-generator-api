@@ -37,7 +37,6 @@ exports.randomPerson = (req, res) => {
                 }
                 res.json(person);
             }).catch((error) => {
-                console.log(error)
                 res.send(error);
             })
         }).catch((error) => {
