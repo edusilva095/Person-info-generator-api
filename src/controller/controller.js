@@ -3,7 +3,7 @@ const Nome = mongoose.model("nome");
 const Sobrenome = mongoose.model("sobrenome");
 const ListCities = require("./listCities");
 const GenerateNames = require("./generateNames");
-const GenerateCpf = require("./generateDocument");
+const generateDocument = require("./generateDocument");
 const GenerateDate = require("./generateDate");
 const TypeBlood = require("./typeBlood");
 const Sign = require("./sign");
@@ -20,8 +20,8 @@ exports.randomPerson = (req, res) => {
             ListCities.listCities().then((city) => {
                 const person = {
                     nome: `${random.person.nome} ${sobrenome.lastSobrenomeMother.sobrenome} ${sobrenome.lastSobrenomeFather.sobrenome}`,
-                    cpf: GenerateCpf.generateCpf(),
-                    rg: GenerateCpf.generateRg(),
+                    cpf: generateDocument.generateCpf(city.state),
+                    rg: generateDocument.generateRg(),
                     sexo: random.person.genero,
                     nascimento: date,
                     signo: Sign.sign(date),
@@ -37,12 +37,15 @@ exports.randomPerson = (req, res) => {
                 }
                 res.json(person);
             }).catch((error) => {
+                console.log(error)
                 res.send(error);
             })
         }).catch((error) => {
+            console.log(error)
             res.send(error);
         })
     }).catch((error) => {
+        console.log(error)
         res.send(error);
     })
 }
