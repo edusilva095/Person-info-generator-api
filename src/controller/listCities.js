@@ -47,8 +47,6 @@ const states = (stateAreaCode, areaCode) => {
         case "MG":
             return { state: "Minas Gerais", city: formatNameCity(city), ddd: areaCode };
         case "PA":
-            return { state: "Minas Gerais", city: formatNameCity(city), ddd: areaCode };
-        case "PA":
             return { state: "Pará", city: formatNameCity(city), ddd: areaCode };
         case "PB":
             return { state: "Paraíba", city: formatNameCity(city), ddd: areaCode };
