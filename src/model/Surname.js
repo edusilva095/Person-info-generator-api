@@ -8,4 +8,4 @@ const schemaSurname = Schema({
     }
 })
 
-module.exports = mongoose.model("sobrenome", schemaSurname);
+module.exports = mongoose.model("surname", schemaSurname);
