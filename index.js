@@ -4,8 +4,8 @@ const port = 4000;
 const bodyParser = require('body-parser');
 const mongoose = require("mongoose");
 
-const Nome = require("./src/model/model_nome");
-const Sobrenome = require("./src/model/model_sobrenome");
+const Name = require("./src/model/Name");
+const Surname = require("./src/model/Surname");
 const Routes = require("./src/routes/routes");
 
 mongoose.connect('mongodb://localhost/gerador-de-pessoas');

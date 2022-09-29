@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const Nome = mongoose.model("nome");
-const Sobrenome = mongoose.model("sobrenome");
+const Name = mongoose.model("name");
+const Surname = mongoose.model("surname");
 const ListCities = require("./listCities");
 const GenerateNames = require("./generateNames");
 const generateDocument = require("./generateDocument");
@@ -11,12 +11,12 @@ const GenerateNumberPhone = require("./generateNumberPhone");
 
 exports.randomPerson = (req, res) => {
     const countAllDatas = Nome.countDocuments({});
-    const countMale = Nome.where({ "genero": "masculino" }).countDocuments();
-    const countFemale = Nome.where({ "genero": "feminino" }).countDocuments();
-    const countSobrenome = Sobrenome.countDocuments({});
+    const countMale = Name.where({ "gender": "male" }).countDocuments();
+    const countFemale = Name.where({ "gender": "female" }).countDocuments();
+    const countSobrenome = Surname.countDocuments({});
     const date = GenerateDate.nascimento();
     GenerateNames.getRandomNameOfAnyGender(countAllDatas, countMale, countFemale).then((random) => {
-        GenerateNames.getRandomSobrenome(countSobrenome).then((sobrenome) => {
+        GenerateNames.getRandomSurname(countSobrenome).then((sobrenome) => {
             ListCities.listCities().then((city) => {
                 const person = {
                     nome: `${random.person.nome} ${sobrenome.lastSobrenomeMother.sobrenome} ${sobrenome.lastSobrenomeFather.sobrenome}`,
