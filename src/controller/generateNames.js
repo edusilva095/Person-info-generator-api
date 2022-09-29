@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const Nome = mongoose.model("nome");
-const Sobrenome = mongoose.model("sobrenome");
+const Name = mongoose.model("name");
+const Surname = mongoose.model("surname");
 
 exports.getRandomNameOfAnyGender = async (countAllDatas, countMale, countFemale) => {
     const random = {
@@ -12,32 +12,32 @@ exports.getRandomNameOfAnyGender = async (countAllDatas, countMale, countFemale)
 }
 
 const randomNamesOfAnyGender = async (countAllDatas) => {
-    const names = await Nome.find({});
+    const names = await Name.find({});
     return names[Math.floor(Math.random() * await countAllDatas)];
 }
 
 const randomNamesMales = async (countMale) => {
-    const namesMales = await Nome.find({ "genero": "masculino" });
+    const namesMales = await Name.find({ "gender": "male" });
     return namesMales[Math.floor(Math.random() * await countMale)];
 }
 
 const randomNamesFemales = async (countFemale) => {
-    const namesFemales = await Nome.find({ "genero": "feminino" });
+    const namesFemales = await Name.find({ "gender": "female" });
     return namesFemales[Math.floor(Math.random() * await countFemale)];
 }
 
-exports.getRandomSobrenome = async (countSobrenome) => {
-    const count = await countSobrenome;
-    const randomNumberMiddleSobrenomeFather = Math.floor(Math.random() * count);
-    const randomNumberLastSobrenomeFather = Math.floor(Math.random() * count);
-    const randomNumberMiddleSobrenomeMother = Math.floor(Math.random() * count);
-    const randomNumberLastSobrenomeMother = Math.floor(Math.random() * count);
+exports.getRandomSurname = async (countSurname) => {
+    const count = await countSurname;
+    const randomNumberMiddleSurnameFather = Math.floor(Math.random() * count);
+    const randomNumberLastSurnameFather = Math.floor(Math.random() * count);
+    const randomNumberMiddleSurnameMother = Math.floor(Math.random() * count);
+    const randomNumberLastSurnameMother = Math.floor(Math.random() * count);
 
-    const randomSobrenome = {
-        middleSobrenomeFather: await Sobrenome.findOne().skip(randomNumberMiddleSobrenomeFather),
-        lastSobrenomeFather: await Sobrenome.findOne().skip(randomNumberLastSobrenomeFather),
-        middleSobrenomeMother: await Sobrenome.findOne().skip(randomNumberMiddleSobrenomeMother),
-        lastSobrenomeMother: await Sobrenome.findOne().skip(randomNumberLastSobrenomeMother)
+    const randomSurname = {
+        middleSobrenomeFather: await Surname.findOne().skip(randomNumberMiddleSurnameFather),
+        lastSobrenomeFather: await Surname.findOne().skip(randomNumberLastSurnameFather),
+        middleSobrenomeMother: await Surname.findOne().skip(randomNumberMiddleSurnameMother),
+        lastSobrenomeMother: await Surname.findOne().skip(randomNumberLastSurnameMother)
     }
-    return randomSobrenome;
+    return randomSurname;
 }
