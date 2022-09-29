@@ -10,19 +10,19 @@ const Sign = require("./sign");
 const GenerateNumberPhone = require("./generateNumberPhone");
 
 exports.randomPerson = (req, res) => {
-    const countAllDatas = Nome.countDocuments({});
+    const countAllDatas = Name.countDocuments({});
     const countMale = Name.where({ "gender": "male" }).countDocuments();
     const countFemale = Name.where({ "gender": "female" }).countDocuments();
     const countSobrenome = Surname.countDocuments({});
-    const date = GenerateDate.nascimento();
+    const date = GenerateDate.dateOfBirth();
     GenerateNames.getRandomNameOfAnyGender(countAllDatas, countMale, countFemale).then((random) => {
-        GenerateNames.getRandomSurname(countSobrenome).then((sobrenome) => {
+        GenerateNames.getRandomSurname(countSobrenome).then((surname) => {
             ListCities.listCities().then((city) => {
                 const person = {
-                    nome: `${random.person.nome} ${sobrenome.lastSobrenomeMother.sobrenome} ${sobrenome.lastSobrenomeFather.sobrenome}`,
+                    nome: `${random.person.name} ${surname.lastSurnameMother.surname} ${surname.lastSurnameFather.surname}`,
                     cpf: generateDocument.generateCpf(city.state),
                     rg: generateDocument.generateRg(),
-                    sexo: random.person.genero,
+                    sexo: random.person.gender,
                     nascimento: date,
                     signo: Sign.sign(date),
                     altura: (Math.random() * (1.90 - 1.55) + 1.55).toFixed(2), // definindo a altura mínima com 1.55 e altura máxima com 1.90
@@ -32,8 +32,8 @@ exports.randomPerson = (req, res) => {
                     cidade: city.city,
                     telefone: GenerateNumberPhone.generateNumberLandline(city.ddd),
                     celular: GenerateNumberPhone.generateNumberCellPhone(city.ddd),
-                    mae: `${random.mae.nome} ${sobrenome.middleSobrenomeMother.sobrenome} ${sobrenome.lastSobrenomeMother.sobrenome}`,
-                    pai: `${random.pai.nome} ${sobrenome.middleSobrenomeFather.sobrenome} ${sobrenome.lastSobrenomeFather.sobrenome}`,
+                    mae: `${random.mae.name} ${surname.middleSurnameMother.surname} ${surname.lastSurnameMother.surname}`,
+                    pai: `${random.pai.name} ${surname.middleSurnameFather.surname} ${surname.lastSurnameFather.surname}`,
                 }
                 res.json(person);
             }).catch((error) => {
