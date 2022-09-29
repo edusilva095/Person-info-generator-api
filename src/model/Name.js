@@ -12,4 +12,4 @@ const schemaName = Schema({
     }
 })
 
-module.exports = mongoose.model("nome", schemaName);
+module.exports = mongoose.model("name", schemaName);
