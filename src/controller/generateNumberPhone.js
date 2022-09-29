@@ -1,8 +1,8 @@
 const axios = require("axios");
 
 exports.generateNumberLandline = (areaCode) => {
-    const firstPart = Math.floor(Math.random() * 9999 + 1);
-    const secondPart = Math.floor(Math.random() * 9999 + 1);
+    const firstPart = Math.floor(Math.random() * 9999 + 1000);
+    const secondPart = Math.floor(Math.random() * 9999 + 1000);
     return `(${areaCode})${firstPart}-${secondPart}`
 }
 
@@ -12,6 +12,5 @@ exports.generateNumberCellPhone = (areaCode) => {
     const randomOperatorNumber = Math.floor(Math.random() * operatorNumber.length);
     const firstPart = Math.floor(Math.random() * 100 + 10);
     const secondPart = Math.floor(Math.random() * 999 + 1000);
-    console.log(firstPart)
     return `(${areaCode})9${operatorNumber[randomOperatorNumber]}${firstPart}-${secondPart}`
 }
