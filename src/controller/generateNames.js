@@ -34,10 +34,10 @@ exports.getRandomSurname = async (countSurname) => {
     const randomNumberLastSurnameMother = Math.floor(Math.random() * count);
 
     const randomSurname = {
-        middleSobrenomeFather: await Surname.findOne().skip(randomNumberMiddleSurnameFather),
-        lastSobrenomeFather: await Surname.findOne().skip(randomNumberLastSurnameFather),
-        middleSobrenomeMother: await Surname.findOne().skip(randomNumberMiddleSurnameMother),
-        lastSobrenomeMother: await Surname.findOne().skip(randomNumberLastSurnameMother)
+        middleSurnameFather: await Surname.findOne().skip(randomNumberMiddleSurnameFather),
+        lastSurnameFather: await Surname.findOne().skip(randomNumberLastSurnameFather),
+        middleSurnameMother: await Surname.findOne().skip(randomNumberMiddleSurnameMother),
+        lastSurnameMother: await Surname.findOne().skip(randomNumberLastSurnameMother)
     }
     return randomSurname;
 }
