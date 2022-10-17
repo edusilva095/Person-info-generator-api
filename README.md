@@ -1,4 +1,6 @@
-Uma aplicação que gera uma pessoa com diversos dados.
+<h1>Gerador de dados</h1>
+
+Uma aplicação que gera diversos dados.
 
 Tipos de dados gerados:
 <ul>
@@ -12,7 +14,7 @@ Tipos de dados gerados:
     <li>Peso</li>
     <li>Cidade</li>
     <li>Estado</li>
-    <li>Tipo Sanguineo</li>
+    <li>Tipo Sanguíneo</li>
     <li>Nome do pai</li>
     <li>Nome da mãe</li>
 </ul>
