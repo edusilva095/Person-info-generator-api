@@ -11,6 +11,24 @@ exports.getRandomNameOfAnyGender = async (countAllDatas, countMale, countFemale)
     return random;
 }
 
+exports.getRandomNameMale = async (countMale, countFemale) => {
+    const randomMale = {
+        person: await randomNamesMales(countMale),
+        pai: await randomNamesMales(countMale),
+        mae: await randomNamesFemales(countFemale)
+    }
+    return randomMale;
+}
+
+exports.getRandomNameFemale = async (countMale, countFemale) => {
+    const randomFemale = {
+        person: await randomNamesFemales(countFemale),
+        pai: await randomNamesMales(countMale),
+        mae: await randomNamesFemales(countFemale)
+    }
+    return randomFemale;
+}
+
 const randomNamesOfAnyGender = async (countAllDatas) => {
     const names = await Name.find({});
     return names[Math.floor(Math.random() * await countAllDatas)];
