@@ -15,7 +15,7 @@ exports.generateRg = () => {
     return `${num1}.${num2}.${num3}-${num4}`;
 }
 
-function dig(n1, n2, n3, n4) {
+const dig = (n1, n2, n3, n4) => {
     const nums = n1.split("").concat(n2.split(""), n3.split(""));
     if (n4 !== undefined) {
         nums[9] = n4;
