@@ -3,7 +3,6 @@
 Uma aplicação que gera diversos dados.
 
 <h3>Tipos de dados gerados:</h3>
-<hr>
 <ul>
     <li>Nome completo</li>
     <li>CPF</li>
