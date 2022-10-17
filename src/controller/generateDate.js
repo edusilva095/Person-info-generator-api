@@ -1,4 +1,4 @@
-exports.nascimento = () => {
+exports.dateOfBirth = () => {
     const date = new Date();
     const currentYear = date.getFullYear();
     const yearPast = currentYear - 40;
@@ -8,7 +8,7 @@ exports.nascimento = () => {
     return `${day}-${month}-${year}`
 }
 
-function validateDate(month, year){
+const validateDate = (month, year) => {
     //verificar quais meses possui 31, 30 e 28 dias
     if(month == "01" || month == "03" || month == "05" || month == "07" || month == "08" || month == "10" || month == "12"){
         return concantWithZero(Math.floor(Math.random() * 31 + 1));
