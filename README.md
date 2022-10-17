@@ -2,7 +2,7 @@
 
 Uma aplicação que gera diversos dados.
 
-Tipos de dados gerados:
+<h6>Tipos de dados gerados:</h6>
 <ul>
     <li>Nome completo</li>
     <li>CPF</li>
