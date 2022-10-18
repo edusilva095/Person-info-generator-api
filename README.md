@@ -10,8 +10,10 @@
     <li>Mongoose ~ 6.6.1</li>
 </ul>
 
-<h2>Arquivos JSON para importar para o banco de dados:</h2>
+<h2>Arquivos JSON:</h2>
+<p>Eu disponibilizei arquivos json abaixo para download que contem nomes e sobrenomes para importar para o banco de dados e usar no projeto.</p>
 <a href="https://drive.google.com/file/d/1JpGLoUeSRLlftv042q0PduNKzGSG2SIm/view?usp=sharing">Nomes</a>
+<a href="https://drive.google.com/file/d/1FmqgMA9CEFfyKxkBzmfF4JYQhrZnoBrF/view?usp=sharing">Sobrenomes</a>
 
 <h2>Tipos de dados gerados:</h2>
 <ul>
