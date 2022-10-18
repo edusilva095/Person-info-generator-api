@@ -2,7 +2,7 @@
 
 <p>Uma aplicação que gera diversos tipos de dados.</p>
 
-<h2>Recursos utilizados:</h2>
+<h2>Recursos utilizados</h2>
 <ul>
     <li>Node.js ~ 16.17.0</li>
     <li>Express.js ~ 4.18.1</li>
@@ -10,7 +10,7 @@
     <li>Mongoose ~ 6.6.1</li>
 </ul>
 
-<h2>Arquivos JSON:</h2>
+<h2>Arquivos JSON</h2>
 <p>Eu disponibilizei arquivos json abaixo para download que contem nomes e sobrenomes para importar para o banco de dados e usar no projeto.</p>
 <a href="https://drive.google.com/file/d/1JpGLoUeSRLlftv042q0PduNKzGSG2SIm/view?usp=sharing">Nomes</a>
 <br>
