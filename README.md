@@ -65,7 +65,7 @@
 </ul>
 
 <h2>Gerar números de documentos</h2>
-<p>Este API serve para gerar números de RG e CPF.</p>
+<p>Estes API's serve para gerar números de RG e CPF.</p>
 <table>
     <thead>
         <tr>
@@ -84,6 +84,30 @@
         <td>/get/generate-cpf</td>
         <td>GET</td>
         <td>Gera números randômico de CPF</td>
+    </tr>
+    </tbody>
+</table>
+
+<h2>Gerar números de telefone e celular</h2>
+<p>Estes API's serve para gerar números de telefone e celular com DDD.</p>
+<table>
+    <thead>
+        <tr>
+            <th>ROTA</th>
+            <th>HTTP</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>/get/generate-land-line</td>
+        <td>GET</td>
+        <td>Gera números randômico de telefone</td>
+    </tr>
+     <tr>
+        <td>/get/generate-cell-phone</td>
+        <td>GET</td>
+        <td>Gera números randômico de celular</td>
     </tr>
     </tbody>
 </table>
