@@ -17,7 +17,7 @@
 <a href="https://drive.google.com/file/d/1FmqgMA9CEFfyKxkBzmfF4JYQhrZnoBrF/view?usp=sharing">Sobrenomes</a>
 
 <h2>Gerando dados de uma pessoa</h2>
-
+<p>A tabela abaixo contem os API's para você gerar dados de uma pessoa.</p>
 <table>
     <thead>
         <tr>
@@ -63,3 +63,22 @@
     <li>Nome do pai</li>
     <li>Nome da mãe</li>
 </ul>
+
+<h2>Gerar números de RG</h2>
+<p>Este API serve para gerar números de RG.</p>
+<table>
+    <thead>
+        <tr>
+            <th>ROTA</th>
+            <th>HTTP</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>/get/generate-rg</td>
+        <td>GET</td>
+        <td>Gera números randômico de RG</td>
+    </tr>
+    </tbody>
+</table>
