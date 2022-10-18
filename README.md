@@ -18,6 +18,25 @@
 
 <h2>Gerando dados de uma pessoa</h2>
 
+<h3>Tipos de dados gerados:</h3>
+<ul>
+    <li>Nome completo</li>
+    <li>CPF</li>
+    <li>RG</li>
+    <li>Data de nascimento</li>
+    <li>Sexo</li>
+    <li>Signo</li>
+    <li>Altura</li>
+    <li>Peso</li>
+    <li>Cidade</li>
+    <li>Estado</li>
+    <li>Tipo Sanguíneo</li>
+    <li>Número de telefone</li>
+    <li>Número de celular</li>
+    <li>Nome do pai</li>
+    <li>Nome da mãe</li>
+</ul>
+
 <table>
     <thead>
         <tr>
@@ -44,22 +63,3 @@
     </tr>
     </tbody>
 </table>
-
-<h3>Tipos de dados gerados:</h3>
-<ul>
-    <li>Nome completo</li>
-    <li>CPF</li>
-    <li>RG</li>
-    <li>Data de nascimento</li>
-    <li>Sexo</li>
-    <li>Signo</li>
-    <li>Altura</li>
-    <li>Peso</li>
-    <li>Cidade</li>
-    <li>Estado</li>
-    <li>Tipo Sanguíneo</li>
-    <li>Número de telefone</li>
-    <li>Número de celular</li>
-    <li>Nome do pai</li>
-    <li>Nome da mãe</li>
-</ul>
