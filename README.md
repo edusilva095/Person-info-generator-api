@@ -18,6 +18,38 @@
 
 <h2>Gerando dados de uma pessoa</h2>
 
+<table>
+    <thead>
+        <tr>
+            <th>ROTA</th>
+            <th>HTTP</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>/get/random-person</td>
+        <td>GET</td>
+        <td>Gera dados de uma pessoa de qualquer gênero</td>
+    </tr>
+    <tr>
+        <td>/get/random-person-male</td>
+        <td>GET</td>
+        <td>Gera dados de uma pessoa de gênero masculino</td>
+    </tr>
+    <tr>
+        <td>/get/random-person-female</td>
+        <td>GET</td>
+        <td>Gera dados de uma pessoa de gênero feminino</td>
+    </tr>
+    <tr>
+        <td>/api/usuarios/:usuario_id</td>
+        <td>GET</td>
+        <td>Atualizar Por Id</td>
+    </tr>
+    </tbody>
+</table>
+
 <h3>Tipos de dados gerados:</h3>
 <ul>
     <li>Nome completo</li>
