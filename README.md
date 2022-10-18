@@ -10,7 +10,7 @@
     <li>Mongoose ~ 6.6.1</li>
 </ul>
 
-<h3>Tipos de dados gerados:</h3>
+<h2>Tipos de dados gerados:</h2>
 <ul>
     <li>Nome completo</li>
     <li>CPF</li>
