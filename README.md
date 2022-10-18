@@ -10,6 +10,8 @@
     <li>Mongoose ~ 6.6.1</li>
 </ul>
 
+<p>Utilizei o api do <a href="https://brasilapi.com.br/docs#tag/DDD">Brasil API</a> para me retornar uma lista de cidades de um determinado DDD</p>
+
 <h2>Arquivos JSON</h2>
 <p>Eu disponibilizei arquivos json abaixo para download que contem nomes e sobrenomes para importar para o banco de dados e usar no projeto.</p>
 <a href="https://drive.google.com/file/d/1JpGLoUeSRLlftv042q0PduNKzGSG2SIm/view?usp=sharing">Nomes</a>
