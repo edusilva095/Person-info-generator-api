@@ -64,8 +64,8 @@
     <li>Nome da mãe</li>
 </ul>
 
-<h2>Gerar números de RG</h2>
-<p>Este API serve para gerar números de RG.</p>
+<h2>Gerar números de documentos</h2>
+<p>Este API serve para gerar números de RG e CPF.</p>
 <table>
     <thead>
         <tr>
@@ -79,6 +79,11 @@
         <td>/get/generate-rg</td>
         <td>GET</td>
         <td>Gera números randômico de RG</td>
+    </tr>
+     <tr>
+        <td>/get/generate-cpf</td>
+        <td>GET</td>
+        <td>Gera números randômico de CPF</td>
     </tr>
     </tbody>
 </table>
