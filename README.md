@@ -1,6 +1,6 @@
 <h1>Gerador de dados</h1>
 
-Uma aplicação que gera diversos dados.
+<p>Uma aplicação que gera diversos tipos de dados.</p>
 
 <h2>Recursos utilizados:</h2>
 <ul>
