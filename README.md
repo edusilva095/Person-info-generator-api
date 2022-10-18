@@ -42,11 +42,6 @@
         <td>GET</td>
         <td>Gera dados de uma pessoa de gênero feminino</td>
     </tr>
-    <tr>
-        <td>/api/usuarios/:usuario_id</td>
-        <td>GET</td>
-        <td>Atualizar Por Id</td>
-    </tr>
     </tbody>
 </table>
 
@@ -63,6 +58,8 @@
     <li>Cidade</li>
     <li>Estado</li>
     <li>Tipo Sanguíneo</li>
+    <li>Número de telefone</li>
+    <li>Número de celular</li>
     <li>Nome do pai</li>
     <li>Nome da mãe</li>
 </ul>
