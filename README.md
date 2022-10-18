@@ -16,7 +16,9 @@
 <br>
 <a href="https://drive.google.com/file/d/1FmqgMA9CEFfyKxkBzmfF4JYQhrZnoBrF/view?usp=sharing">Sobrenomes</a>
 
-<h2>Tipos de dados gerados:</h2>
+<h2>Gerando dados de uma pessoa</h2>
+
+<h3>Tipos de dados gerados:</h3>
 <ul>
     <li>Nome completo</li>
     <li>CPF</li>
