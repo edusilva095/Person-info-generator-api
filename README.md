@@ -11,6 +11,8 @@
 </ul>
 
 <h2>Tipos de dados gerados:</h2>
+<pre>teste
+teste</pre>
 <ul>
     <li>Nome completo</li>
     <li>CPF</li>
