@@ -1,4 +1,4 @@
-<h1>Gerador de dados</h1>
+<h1>Person-info-generator-api</h1>
 
 <p>Uma aplicação que gera diversos tipos de dados.</p>
 
