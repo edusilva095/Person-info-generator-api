@@ -1,6 +1,6 @@
 <h1>Person-info-generator-api</h1>
 
-<p>Uma aplicação que gera diversos tipos de dados.</p>
+<p>Esta API é um gerador de dados pessoais que fornece informações fictícias de pessoas, incluindo nome completo, CPF, RG, data de nascimento, sexo, signo, altura, peso, cidade, estado, tipo sanguíneo, número de telefone, número de celular, nome do pai e nome da mãe. Ela foi criada para fins de teste, simulação e desenvolvimento de aplicativos que necessitam de dados de pessoa para preencher formulários, realizar testes, ou para qualquer outra aplicação que exija informações pessoais fictícias.</p>
 
 <h2>Recursos utilizados</h2>
 <ul>
