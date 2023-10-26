@@ -8,7 +8,7 @@ const Name = require("./src/model/Name");
 const Surname = require("./src/model/Surname");
 const Routes = require("./src/routes/routes");
 
-mongoose.connect('mongodb://localhost/gerador-de-pessoas');
+mongoose.connect("mongodb://localhost/gerador-de-pessoas");
 
 app.use(Routes);
 app.use(bodyParser.urlencoded({ extended: false }));
