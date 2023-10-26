@@ -33,11 +33,25 @@
 
 <p>Além disso, o projeto faz uso da API do <a href="https://brasilapi.com.br/docs#tag/DDD">Brasil API</a> para obter uma lista de cidades com base em um DDD específico. O objetivo é fornecer um conjunto confiável de dados fictícios que podem ser usados para preencher formulários, realizar testes e criar cenários de simulação.</p>
 
-<h2>Arquivos JSON</h2>
-<p>Eu disponibilizei arquivos json abaixo para download que contem nomes e sobrenomes para importar para o banco de dados e usar no projeto.</p>
+<h2>Configurando o banco de dados</h2>
+<p>Antes de começar a usar a API, é necessário configurar um banco de dados MongoDB. Siga os passos abaixo:
+</p>
+<ol>
+    <li>
+        <p><strong>Crie um Banco de Dados:</strong>
+            No seu ambiente de desenvolvimento, crie um novo banco de dados com o nome "person-info-generator".
+        </p>
+    </li>
+    <li>
+        <p><strong>Importe Dados Iniciais:</strong>
+            Importe os dois arquivos "names" e "surnames" que estão localizados na pasta raiz do projeto. Isso garantirá que o banco de dados esteja preenchido com os dados necessários para o funcionamento da API.
+        </p>
+    </li>
+</ol>
+<!--<p>Eu disponibilizei arquivos json abaixo para download que contem nomes e sobrenomes para importar para o banco de dados e usar no projeto.</p>
 <a href="https://drive.google.com/file/d/1JpGLoUeSRLlftv042q0PduNKzGSG2SIm/view?usp=sharing">Nomes</a>
 <br>
-<a href="https://drive.google.com/file/d/1FmqgMA9CEFfyKxkBzmfF4JYQhrZnoBrF/view?usp=sharing">Sobrenomes</a>
+<a href="https://drive.google.com/file/d/1FmqgMA9CEFfyKxkBzmfF4JYQhrZnoBrF/view?usp=sharing">Sobrenomes</a>--!>
 
 <h2>Gerando dados de uma pessoa</h2>
 <p>A tabela abaixo contém as rotas para você gerar dados fictícios de uma pessoa.</p>
