@@ -1,7 +1,7 @@
 {
   "name": "person-info-generator-api",
   "version": "1.0.0",
-  "description": "uma aplicação que gera uma pessoa com diversos dados",
+  "description": "um API que gera dados fictícios de uma pessoa.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
