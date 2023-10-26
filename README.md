@@ -3,6 +3,7 @@
 <p>Esta API é um gerador de dados pessoais que fornece informações fictícias de pessoas, incluindo nome completo, CPF, RG, data de nascimento, sexo, signo, altura, peso, cidade, estado, tipo sanguíneo, número de telefone, número de celular, nome do pai e nome da mãe. Ela foi criada para fins de teste, simulação e desenvolvimento de aplicativos que necessitam de dados de pessoa para preencher formulários, realizar testes, ou para qualquer outra aplicação que exija informações pessoais fictícias.</p>
 
 <h3>Tipos de dados Gerado:</h3>
+<p>A API gera os seguintes tipos de dados:</p>
 <ul>
     <li>Nome completo</li>
     <li>CPF</li>
@@ -23,6 +24,7 @@
 
 
 <h2>Recursos utilizados</h2>
+<p>A "Person-info-generator-api" utiliza as seguintes tecnologias:</p>
 <ul>
     <li>Node.js ~ 18.18.2</li>
     <li>Express.js ~ 4.18.1</li>
@@ -48,10 +50,6 @@
         </p>
     </li>
 </ol>
-<!--<p>Eu disponibilizei arquivos json abaixo para download que contem nomes e sobrenomes para importar para o banco de dados e usar no projeto.</p>
-<a href="https://drive.google.com/file/d/1JpGLoUeSRLlftv042q0PduNKzGSG2SIm/view?usp=sharing">Nomes</a>
-<br>
-<a href="https://drive.google.com/file/d/1FmqgMA9CEFfyKxkBzmfF4JYQhrZnoBrF/view?usp=sharing">Sobrenomes</a>--!>
 
 <h2>Gerando dados de uma pessoa</h2>
 <p>A tabela abaixo contém as rotas para você gerar dados fictícios de uma pessoa.</p>
