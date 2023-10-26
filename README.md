@@ -40,7 +40,7 @@
 <a href="https://drive.google.com/file/d/1FmqgMA9CEFfyKxkBzmfF4JYQhrZnoBrF/view?usp=sharing">Sobrenomes</a>
 
 <h2>Gerando dados de uma pessoa</h2>
-<p>A tabela abaixo contem os API's para você gerar dados de uma pessoa.</p>
+<p>A tabela abaixo contém as rotas para você gerar dados fictícios de uma pessoa.</p>
 <table>
     <thead>
         <tr>
@@ -69,7 +69,7 @@
 </table>
 
 <h2>Gerar números de documentos</h2>
-<p>Estes API's serve para gerar números de RG e CPF.</p>
+<p>A tabela abaixo contém as rotas para você gerar números fictícios de RG e CPF.</p>
 <table>
     <thead>
         <tr>
@@ -93,7 +93,7 @@
 </table>
 
 <h2>Gerar números de telefone e celular</h2>
-<p>Estes API's serve para gerar números de telefone e celular com DDD.</p>
+<p>A tabela abaixo contém as rotas para você gerar números fictícios de telefone e celular com DDD.</p>
 <table>
     <thead>
         <tr>
