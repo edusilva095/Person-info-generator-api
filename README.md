@@ -2,15 +2,6 @@
 
 <p>Esta API é um gerador de dados pessoais que fornece informações fictícias de pessoas, incluindo nome completo, CPF, RG, data de nascimento, sexo, signo, altura, peso, cidade, estado, tipo sanguíneo, número de telefone, número de celular, nome do pai e nome da mãe. Ela foi criada para fins de teste, simulação e desenvolvimento de aplicativos que necessitam de dados de pessoa para preencher formulários, realizar testes, ou para qualquer outra aplicação que exija informações pessoais fictícias.</p>
 
-<h2>Recursos utilizados</h2>
-<ul>
-    <li>Node.js ~ 18.18.2</li>
-    <li>Express.js ~ 4.18.1</li>
-    <li>MongoDB ~ 7.0.2</li>
-    <li>Mongoose ~ 6.6.1</li>
-    <li>Nodemon ~ 2.0.20</li>
-</ul>
-
 <h3>Tipos de dados Gerado:</h3>
 <ul>
     <li>Nome completo</li>
@@ -28,6 +19,16 @@
     <li>Número de celular</li>
     <li>Nome do pai</li>
     <li>Nome da mãe</li>
+</ul>
+
+
+<h2>Recursos utilizados</h2>
+<ul>
+    <li>Node.js ~ 18.18.2</li>
+    <li>Express.js ~ 4.18.1</li>
+    <li>MongoDB ~ 7.0.2</li>
+    <li>Mongoose ~ 6.6.1</li>
+    <li>Nodemon ~ 2.0.20</li>
 </ul>
 
 <p>Além disso, o projeto faz uso da API do <a href="https://brasilapi.com.br/docs#tag/DDD">Brasil API</a> para obter uma lista de cidades com base em um DDD específico. O objetivo é fornecer um conjunto confiável de dados fictícios que podem ser usados para preencher formulários, realizar testes e criar cenários de simulação.</p>
