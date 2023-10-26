@@ -128,7 +128,7 @@
 </table>
 
 <h2>Gerar números de telefone e celular</h2>
-<p>A tabela abaixo contém as rotas para você gerar números fictícios de telefone e celular com DDD.</p>
+<p>A tabela abaixo contém as rotas para você gerar números fictícios de telefone fixo e celular com DDD.</p>
 <table>
     <thead>
         <tr>
