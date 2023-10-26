@@ -11,8 +11,8 @@ const Routes = require("./src/routes/routes");
 mongoose.connect("mongodb://0.0.0.0:27017/person-info-generator");
 
 app.use(Routes);
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 app.listen(port, () => {
     console.log("server is running!!");
