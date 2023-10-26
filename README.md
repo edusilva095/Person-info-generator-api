@@ -8,6 +8,26 @@
     <li>Express.js ~ 4.18.1</li>
     <li>MongoDB ~ 7.0.2</li>
     <li>Mongoose ~ 6.6.1</li>
+    <li>Nodemon ~ 2.0.20</li>
+</ul>
+
+<h3>Tipos de dados Gerado:</h3>
+<ul>
+    <li>Nome completo</li>
+    <li>CPF</li>
+    <li>RG</li>
+    <li>Data de nascimento</li>
+    <li>Sexo</li>
+    <li>Signo</li>
+    <li>Altura</li>
+    <li>Peso</li>
+    <li>Cidade</li>
+    <li>Estado</li>
+    <li>Tipo Sanguíneo</li>
+    <li>Número de telefone</li>
+    <li>Número de celular</li>
+    <li>Nome do pai</li>
+    <li>Nome da mãe</li>
 </ul>
 
 <p>Além disso, o projeto faz uso da API do <a href="https://brasilapi.com.br/docs#tag/DDD">Brasil API</a> para obter uma lista de cidades com base em um DDD específico. O objetivo é fornecer um conjunto confiável de dados fictícios que podem ser usados para preencher formulários, realizar testes e criar cenários de simulação.</p>
@@ -46,25 +66,6 @@
     </tr>
     </tbody>
 </table>
-
-<h3>Tipos de dados gerados:</h3>
-<ul>
-    <li>Nome completo</li>
-    <li>CPF</li>
-    <li>RG</li>
-    <li>Data de nascimento</li>
-    <li>Sexo</li>
-    <li>Signo</li>
-    <li>Altura</li>
-    <li>Peso</li>
-    <li>Cidade</li>
-    <li>Estado</li>
-    <li>Tipo Sanguíneo</li>
-    <li>Número de telefone</li>
-    <li>Número de celular</li>
-    <li>Nome do pai</li>
-    <li>Nome da mãe</li>
-</ul>
 
 <h2>Gerar números de documentos</h2>
 <p>Estes API's serve para gerar números de RG e CPF.</p>
