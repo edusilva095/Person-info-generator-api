@@ -41,7 +41,7 @@
 <ol>
     <li>
         <p><strong>Crie um Banco de Dados:</strong>
-            Abra um terminal e utilize o comando mongo para iniciar o shell do MongoDB. Em seguida, execute os seguinte comando para criar um novo banco de dados chamado "person-info-generator":
+            Abra um terminal e utilize o comando <strong>mongosh</strong> para iniciar o shell do MongoDB. Em seguida, execute os seguinte comando para criar um novo banco de dados chamado "person-info-generator":
         </p>
         <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>use person-info-generator
 </code></pre><div class="zeroclipboard-container position-absolute right-0 top-0">
