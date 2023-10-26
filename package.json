@@ -1,5 +1,5 @@
 {
-  "name": "Person-info-generator-api",
+  "name": "person-info-generator-api",
   "version": "1.0.0",
   "description": "uma aplicação que gera uma pessoa com diversos dados",
   "main": "index.js",
