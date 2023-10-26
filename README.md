@@ -141,7 +141,7 @@
     <tr>
         <td>/get/generate-land-line</td>
         <td>GET</td>
-        <td>Gera números randômico de telefone</td>
+        <td>Gera números randômico de telefone fixo</td>
     </tr>
      <tr>
         <td>/get/generate-cell-phone</td>
