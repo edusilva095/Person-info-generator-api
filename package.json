@@ -1,5 +1,5 @@
 {
-  "name": "gerador-de-pessoas",
+  "name": "Person-info-generator-api",
   "version": "1.0.0",
   "description": "uma aplicação que gera uma pessoa com diversos dados",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edusilva095/gerador_de_pessoas.git"
+    "url": "git+https://github.com/edusilva095/Person-info-generator-api.git"
   },
   "author": "Eduardo Silva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/edusilva095/gerador_de_pessoas/issues"
+    "url": "https://github.com/edusilva095/Person-info-generator-api/issues"
   },
-  "homepage": "https://github.com/edusilva095/gerador_de_pessoas#readme",
+  "homepage": "https://github.com/edusilva095/Person-info-generator-api#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "body-parser": "^1.20.0",
