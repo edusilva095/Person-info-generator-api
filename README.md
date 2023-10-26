@@ -59,7 +59,7 @@
         <p><strong>Importe Dados Iniciais:</strong>
             Execute o comando <strong>mongoimport</strong> para importar os dados iniciais dos arquivos "names.json" e "surnames.json" localizados na pasta raiz do projeto para o banco de dados "person-info-generator". Certifique-se de que você esteja no diretório correto antes de executar o comando. Aqui está um exemplo de como fazer isso:
         </p>
-         <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>> mongoimport --db person-info-generator --collection names --type json --file names.json --jsonArray
+         <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code> mongoimport --db person-info-generator --collection names --type json --file names.json --jsonArray
 > mongoimport --db person-info-generator --collection surnames --type json --file surnames.json --jsonArray
 </code></pre><div class="zeroclipboard-container position-absolute right-0 top-0">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="gulp" tabindex="0" role="button" style="display: inherit;">
