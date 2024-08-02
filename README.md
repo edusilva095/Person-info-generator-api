@@ -1,9 +1,8 @@
 <h1>Person-info-generator-api</h1>
 
-<p>Esta API é um gerador de dados pessoais que fornece informações fictícias de pessoas, incluindo nome completo, CPF, RG, data de nascimento, sexo, signo, altura, peso, cidade, estado, tipo sanguíneo, número de telefone, número de celular, nome do pai e nome da mãe. Ela foi criada para fins de teste, simulação e desenvolvimento de aplicativos que necessitam de dados de pessoa para preencher formulários, realizar testes, ou para qualquer outra aplicação que exija informações pessoais fictícias.</p>
+<p>Esta API gera dados pessoais fictícios para facilitar testes, simulações e o desenvolvimento de aplicativos. Ela é projetada para fornecer informações simuladas que podem ser usadas para preencher formulários, realizar testes ou em outras aplicações que requerem dados pessoais fictícios.</p>
 
 <h3>Tipos de dados Gerado:</h3>
-<p>A API gera os seguintes tipos de dados:</p>
 <ul>
     <li>Nome completo</li>
     <li>CPF</li>
@@ -34,6 +33,9 @@
 </ul>
 
 <p>Além disso, o projeto faz uso da API do <a href="https://brasilapi.com.br/docs#tag/DDD">Brasil API</a> para obter uma lista de cidades com base em um DDD específico. O objetivo é fornecer um conjunto confiável de dados fictícios que podem ser usados para preencher formulários, realizar testes e criar cenários de simulação.</p>
+
+<h3>Versão com Docker</h3>
+<p>Este projeto inclui uma versão que utiliza Docker e Docker Compose para facilitar a instalação e execução: <a href="https://github.com/edusilva095/Person-info-generator-api-docker">Person-info-generator-api-docker</a></p>
 
 <h2>Configurando o banco de dados</h2>
 <p>Antes de começar a usar a API, é necessário configurar um banco de dados MongoDB. Siga os passos abaixo:
